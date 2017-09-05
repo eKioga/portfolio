@@ -1,2 +1,2 @@
-# portfolio
-My professional portfolio
+# Eric Post's portfolio
+My professional portfolio. It uses AWS and ReactJS.
