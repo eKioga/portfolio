@@ -1,5 +1,32 @@
-import 'react-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import ExampleWork from './example-work';
 
-console.log("Loaded react-dom");
-
-console.log("Webpack works");
+const myWork = [
+    {
+        'title': "My Ruby on Rails Blog/Portfolio",
+        'image': {
+            'desc': "Ruby on Rails Blog/Portfolio",
+            'src': "images/rails_blog.png",
+            'comment': ""
+        }
+    },
+    {
+        'title': "Work Example",
+        'image': {
+            'desc': "example screenshot of a project involving chemistry",
+            'src': "images/example2.png",
+            'comment': `{/* “Chemistry” by Surian Soosay is licensed under CC BY 2.0
+            https://www.flickr.com/photos/ssoosay/4097410999 */}`
+        }
+    },
+    {
+        'title': "Work Example",
+        'image': {
+            'desc': "example screenshot of a project involving cats",
+            'src': "images/example3.png",
+            'comment': ""
+        }
+    }
+]
+ReactDOM.render(<ExampleWork work={myWork}/>, document.getElementById('example-work'));
