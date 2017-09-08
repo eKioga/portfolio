@@ -4,9 +4,9 @@ import ExampleWork from './example-work';
 
 const myWork = [
     {
-        'title': "My Ruby on Rails Blog/Portfolio",
-        'href': "https://example.com",
-        'desc': "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ligula ex, blandit iaculis elit eget, aliquet tempor est. In hac habitasse platea dictumst. Etiam turpis libero, cursus id aliquam eu, pharetra efficitur ipsum. In pretium congue ipsum aliquam ullamcorper. Quisque quis luctus felis. Praesent tempus quam porttitor risus dapibus gravida et non tortor. Ut aliquam eu elit eget dictum.",
+        'title': "My Ruby on Rails Blog/Portfolio app",
+        'href': "https://github.com/eKioga/blog",
+        'desc': "I consider Ruby as my first real foray into programming. I picked up Rails soon after to as a way of practicing both DevOps tech like Ansible and code deployment tools like Capistrano. Lots of fun! This was my main blog/portfolio site up until I learned about serverless tech with AWS. I became so engrossed with that tech that I've since replaced it with the serverless portfolio site your looking at now. It's currently being self hosted on http://eric-post.ddns.net/ but it may of been decommissioned by the time you read this.",
         'image': {
             'desc': "Ruby on Rails Blog/Portfolio",
             'src': "images/rails_blog.png",
@@ -14,23 +14,22 @@ const myWork = [
         }
     },
     {
-        'title': "Work Example",
-        'href': "https://example.com",
-        'desc': "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ligula ex, blandit iaculis elit eget, aliquet tempor est. In hac habitasse platea dictumst. Etiam turpis libero, cursus id aliquam eu, pharetra efficitur ipsum. In pretium congue ipsum aliquam ullamcorper. Quisque quis luctus felis. Praesent tempus quam porttitor risus dapibus gravida et non tortor. Ut aliquam eu elit eget dictum.",
+        'title': "This Portfolio Site",
+        'href': "https://github.com/eKioga/portfolio",
+        'desc': "The very same portfolio site your looking at now! It's a serverless site hosted on AWS, uses ReactJS as it's front end and relies heavily on CodePipeline for deployment.",
         'image': {
             'desc': "example screenshot of a project involving chemistry",
-            'src': "images/example2.png",
-            'comment': `{/* “Chemistry” by Surian Soosay is licensed under CC BY 2.0
-            https://www.flickr.com/photos/ssoosay/4097410999 */}`
+            'src': "images/portfolio_site.png",
+            'comment': `{/* “example comment in case i want to copy it later.*/}`
         }
     },
     {
-        'title': "Work Example",
-        'href': "https://example.com",
-        'desc': "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ligula ex, blandit iaculis elit eget, aliquet tempor est. In hac habitasse platea dictumst. Etiam turpis libero, cursus id aliquam eu, pharetra efficitur ipsum. In pretium congue ipsum aliquam ullamcorper. Quisque quis luctus felis. Praesent tempus quam porttitor risus dapibus gravida et non tortor. Ut aliquam eu elit eget dictum.",
+        'title': "The Ansible Playbook for my Rails Blog",
+        'href': "https://github.com/eKioga/blog_playbook",
+        'desc': "This is the playbook I set up for use with my old Ruby on Rails blog.",
         'image': {
             'desc': "example screenshot of a project involving cats",
-            'src': "images/example3.png",
+            'src': "images/ansible_blog.png",
             'comment': ""
         }
     }
