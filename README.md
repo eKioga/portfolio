@@ -3,11 +3,38 @@ My professional portfolio. It uses AWS and ReactJS.
 
 This will serve as a replacement to my previous Ruby on Rails blog/portfolio that I was self hosting. After learning more about about AWS server-less pricing and functionality, I knew that I'd end up doing this sooner than later.
 
-## Technologies Used
+## Architecture 
 
-Git and github
-SSH
-HTML
-CSS
-Font Awesome
-Google Fonts
+### Front End 
+
+- When people visit my site, they go to my domain managed by route 53. 
+- Route 53 routes the request to CloudFront which distributes my portfolio site across the world. 
+- CloudFront gets my portfolio from a bucket in S3. 
+- The portfolio site that the visitor gets is made up of HTML, CSS, JavaScript and some images. 
+- The front end uses react to provide interactivity and babel ensures that it runs on any browser. 
+
+### Back End 
+
+- Source code lives in Github 
+- As soon as my code gets pushed to GitHub, AWS Code Build takes over and runs unit tests with Jests, packages my code with NPM, WebPack and babel then stores the results in S3. 
+- CodePipeline then runs a python lambda function that deploys the code to my portfolios S3 bucket. It also triggers SNS to send an email notification letting me know that the portfolio has been successfully deployed.
+
+## AWS Stuff I learned!
+
+- Security and Access Conrol with IAM
+- DNS Management: Route 53
+- Object Storage with S3
+- Content Distribution with CloudFront
+- Build Tools with CodeBuild & CodePipeline
+- Functions as a service with Lambda
+
+## Front end stuff I leaned!
+
+- How to create a front-end app with React.
+- Page Structure with HTML
+- Look and feel with CSS
+- Interactivity: JavaScript (React)
+- Cross-Browser Compatability with Babel
+- Bundling & Asset Management with WebPack
+- Package Management with NPM
+- Testing with Jest (Chai & Mocha)
