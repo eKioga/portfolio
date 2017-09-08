@@ -16,7 +16,7 @@ const myWork = [
     {
         'title': "This Portfolio Site",
         'href': "https://github.com/eKioga/portfolio",
-        'desc': "The very same portfolio site your looking at now! It's a serverless site hosted on AWS, uses ReactJS as it's front end and relies heavily on CodePipeline for deployment.",
+        'desc': "The very same portfolio site your looking at now! It's a serverless website hosted on Amazon Web Services with Route 53 and CloudFront. It uses ReactJS as it's front end (along with Jest, NPM, WebPack and Babel) and relies heavily on (Python) Lambda, S3, and CodePipeline AWS services for deployment.",
         'image': {
             'desc': "example screenshot of a project involving chemistry",
             'src': "images/portfolio_site.png",
