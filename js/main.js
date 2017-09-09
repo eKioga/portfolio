@@ -6,9 +6,9 @@ const myWork = [
     {
         'title': "My Ruby on Rails Blog/Portfolio app",
         'href': "https://github.com/eKioga/blog",
-        'desc': "I consider Ruby as my first real foray into programming. I picked up Rails soon after to as a way of practicing both DevOps tech like Ansible and code deployment tools like Capistrano. Lots of fun! This was my main blog/portfolio site up until I learned about serverless tech with AWS. I became so engrossed with that tech that I've since replaced it with the serverless portfolio site your looking at now. It's currently being self hosted on http://eric-post.ddns.net/ but it may of been decommissioned by the time you read this.",
+        'desc': "I consider Ruby as my first real foray into programming. I picked up Rails soon after as a way of practicing both DevOps tech like Ansible and code deployment tools like Capistrano. Lots of fun! This was my main blog/portfolio site until I learned about serverless tech with AWS. I became so engrossed with that tech that I've since replaced it with the serverless portfolio site you're looking at now. It is currently being self-hosted on http://eric-post.ddns.net/ but it may have been decommissioned by the time you read this.",
         'image': {
-            'desc': "Ruby on Rails Blog/Portfolio",
+            'desc': "Ruby on Rails Blog/Portfolio screenshot",
             'src': "images/rails_blog.png",
             'comment': ""
         }
@@ -16,9 +16,9 @@ const myWork = [
     {
         'title': "This Portfolio Site",
         'href': "https://github.com/eKioga/portfolio",
-        'desc': "The very same portfolio site your looking at now! It's a serverless website hosted on Amazon Web Services with Route 53 and CloudFront. It uses ReactJS as it's front end (along with Jest, NPM, WebPack and Babel) and relies heavily on (Python) Lambda, S3, and CodePipeline AWS services for deployment.",
+        'desc': "The very same portfolio site you're looking at now! It's a serverless website hosted on Amazon Web Services with Route 53 and CloudFront. It uses ReactJS as its front end (along with Jest, NPM, WebPack and Babel) and relies heavily on (Python) Lambda, S3, and CodePipeline AWS services for deployment.",
         'image': {
-            'desc': "example screenshot of a project involving chemistry",
+            'desc': "Example screenshot of this portfolio site.",
             'src': "images/portfolio_site.png",
             'comment': `{/* “example comment in case i want to copy it later.*/}`
         }
@@ -26,9 +26,9 @@ const myWork = [
     {
         'title': "The Ansible Playbook for my Rails Blog",
         'href': "https://github.com/eKioga/blog_playbook",
-        'desc': "This is the playbook I set up for use with my old Ruby on Rails blog.",
+        'desc': "This is the playbook I set up for use with my old Rails blog.",
         'image': {
-            'desc': "example screenshot of a project involving cats",
+            'desc': "Screenshot of Ansible YAML code",
             'src': "images/ansible_blog.png",
             'comment': ""
         }
