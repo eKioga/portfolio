@@ -23,8 +23,9 @@ This will serve as a replacement to my previous Ruby on Rails blog/portfolio tha
 
 - Security and Access Conrol with IAM
 - DNS Management: Route 53
+- AWS Certificate Manager to enable https
 - Object Storage with S3
-- Content Distribution with CloudFront
+- Content and SSL Cert Distribution with CloudFront
 - Build Tools with CodeBuild & CodePipeline
 - Functions as a service with Lambda
 
