@@ -21,7 +21,7 @@ This will serve as a replacement to my previous Ruby on Rails blog/portfolio tha
 
 ## AWS Stuff I learned!
 
-- Security and Access Conrol with IAM
+- Security and Access Control with IAM
 - DNS Management: Route 53
 - AWS Certificate Manager to enable https
 - Object Storage with S3
