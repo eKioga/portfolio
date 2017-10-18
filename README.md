@@ -21,12 +21,14 @@ This will serve as a replacement to my previous Ruby on Rails blog/portfolio tha
 
 ## AWS Stuff I learned!
 
-- Security and Access Conrol with IAM
+- Security and Access Control with IAM
 - DNS Management: Route 53
+- AWS Certificate Manager to enable https
 - Object Storage with S3
-- Content Distribution with CloudFront
-- Build Tools with CodeBuild & CodePipeline
-- Functions as a service with Lambda
+- Content and SSL Cert Distribution with CloudFront
+- CodeBuild to monitor the Git source and then zip the contents before uploading it to dev S3 bucket
+- Lambda python function for transfering the S3 content into production and firing off an email alert through SNS.
+- CodePipeline to have the source monitoring trigger the codebuild function before in turn triggering the lambda function.
 
 ## Front end stuff I leaned!
 
